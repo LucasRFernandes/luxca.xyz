@@ -11,10 +11,37 @@ body {
   }
 
 ul{
+    
         list-style-type: none;
+        
+}
+.social{
+    
 }
 
 
+a{
+    text-decoration: none;
+}
+
+
+.links{
+    
+    display: flex;
+    width: 130px;
+    height: 30px;
+    justify-content: left;
+    align-items: center;
+    
+    
+    
+}
+
+
+.fa-brands{
+    font-size: 30px;
+    padding-right: 10px;
+}
   
 .root{
     
@@ -52,6 +79,13 @@ ul{
     padding-left: 20px;
 }
 
+.projects-area{
+    width: 50vw;
+    height: 17vh;
+    background-color: blue;
+}
+
+
 .container{
     display: flex;
     justify-content: center;
@@ -59,17 +93,7 @@ ul{
     
 }
 
-.links{
-    
-    display: flex;
-    width: 130px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    
-    
-    background-color: rgb(173, 173, 173);
-}
+
 
 /* makes the site screen adapt depending on screen-size */
 @media screen and (max-width: 768px){
