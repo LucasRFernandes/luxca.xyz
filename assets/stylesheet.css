@@ -11,13 +11,10 @@ body {
   }
 
 ul{
-    
-        list-style-type: none;
         
+        padding-left: 20px;     
 }
-.social{
-    
-}
+
 
 
 a{
@@ -44,29 +41,22 @@ a{
 }
   
 .root{
-    
-    padding-top: 30px
+    padding-top: 50px
 }
 
 .sidebar{
     display: flex;
-    
     justify-content: center;
+    padding-left: 10px;
 }
 
-.sidebar-content{
-    width: 300px;
-}
+
 
 .profile-image{
     border-radius: 20px;
 }
 
-.act{
-    
-    
-    
-}
+
 
 .text{
     font-style: italic;
@@ -79,11 +69,6 @@ a{
     padding-left: 20px;
 }
 
-.projects-area{
-    width: 50vw;
-    height: 17vh;
-    background-color: blue;
-}
 
 
 .container{
@@ -95,11 +80,48 @@ a{
 
 
 
+.projects-area{
+    
+    
+}
+
+.projectIco{
+    width: 100px;
+}
+
+
+
+.project-card{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+footer{
+    font-size: 10px;
+}
+
+
+
 /* makes the site screen adapt depending on screen-size */
 @media screen and (max-width: 768px){
     .container{
         flex-direction: column;
     }
+    .sidebar{
+        padding-left: 0;
+    }
+    .my-projects{
+        padding-right: 10px;
+    }
     
 }
+
+
+
 
