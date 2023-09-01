@@ -92,14 +92,17 @@ a{
 
 
 .project-card{
-    display: flex;
+    padding-bottom: 15px;
+
 }
 
 
 
 
 
-
+.cardText{
+    margin: 3px;
+}
 
 
 footer{
